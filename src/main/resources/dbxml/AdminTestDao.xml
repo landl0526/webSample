@@ -1,0 +1,9 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.AdminDao">
+    <select id="getAllUsers" resultType="com.example.demo.dto.UserDto">
+        select id, name
+        from hello
+    </select>
+
+</mapper>
